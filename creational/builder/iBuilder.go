@@ -7,7 +7,7 @@ type iBuilder interface {
 	getHouse() house
 }
 
-func GetBuilder(builderType string) iBuilder {
+func getBuilder(builderType string) iBuilder {
 	if builderType == "normal" {
 		return &normalBuilder{}
 	}
