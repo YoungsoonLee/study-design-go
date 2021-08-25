@@ -15,3 +15,5 @@ func (t *tv) off() {
 	t.isRunning = true
 	fmt.Println("Turning tv off")
 }
+
+

@@ -7,3 +7,5 @@ type onCommand struct {
 func (c *onCommand) execute() {
 	c.device.on()
 }
+
+
